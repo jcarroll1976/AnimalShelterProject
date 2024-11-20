@@ -1,0 +1,17 @@
+.abstract-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind the video player */
+    /* Add your desired CSS styles for the abstract background */
+    background: linear-gradient(to right, #8B7862, #D2B48C); /* Example gradient */
+    /* Or use more complex CSS techniques like background-image with SVG or canvas */
+  }
+
+  .abstract-background h1 {
+    color: '#fff';
+    text-align: 'center'
+    
+  }
